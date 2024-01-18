@@ -1,0 +1,222 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+*{
+    padding-left: 0;
+   
+} 
+
+/* ----------------- Start Unexpected  -----------*/
+.Unexpected{
+    min-height: 100vh;
+    width: 100%  ;
+    background-color: #F9F8FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Unexpected-left{
+    padding-top: 70px;
+    padding-left: 200px !important;
+}
+.Unexpected-left h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 78px;
+}
+.Unexpected-right img{
+ margin-right: 0;
+ padding-right: 0;
+}
+/*----------------- Start parag  -----------*/
+.parag p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;  
+}
+/*----------------- End parag  -----------*/   
+/*----------------- Start Closing  -----------*/ 
+.Closing , .Not , .Missing{
+    background-color: #F2F1F6;
+}  
+.Closing-cont , .Not-cont , .Failing-cont , .Missing-cont{
+    padding-top: 70px;
+}
+.closing-left h3 , .Opening-right h3 , .Not-left h3 ,.Failing-right h3 ,
+.signing-cont h3 , .Missing-left h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;  
+}
+.closing-left p ,  .Opening-right p , .Not-left p , .Failing-right p ,
+.signing-cont p , .Missing-left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;  
+}
+.closing-right img{
+    margin-left: 140px;
+}
+/*----------------- End Closing  -----------*/   
+/*----------------- Start Opening  -----------*/   
+.Opening-cont{
+    padding-top: 30px;
+}
+.Opening-left img{
+    padding-top: 70px;
+}
+/*----------------- End Opening  -----------*/   
+/*----------------- Start Expert  -----------*/   
+.Expert{
+    background-image: url(../images/Group\ 87.png);
+}
+.Expert-cont , .signing-cont , .End-parag{
+    padding-top: 30px;
+}
+.Expert-left img , .Missing-right img{
+    padding-top: 40px;
+}
+.Expert-right h3{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color:#FFFFFF;
+    line-height: 50px;
+}
+.Expert-right p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color:#FFFFFF;
+    line-height: 30px;
+}
+/*----------------- End Expert  -----------*/   
+/*----------------- Sart signing  -----------*/  
+.signing{
+    background-image: url(../images/Group\ 88.png);
+    text-align: center;
+    margin-top: 50px;
+}
+.signing-cont h3{
+    color: #E7C17A;
+}
+.signing-cont p{
+    color:#FFFFFF ;
+    padding-bottom: 20px;
+}
+/*----------------- End signing  -----------*/   
+/*----------------- Start End-parag   -----------*/   
+.End-parag {
+    background-color: #000000 ;
+    
+    
+}
+.End-parag p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 35px;  
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+/*----------------- End End-parag   -----------*/ 
+/*----------------- Start Questions   -----------*/ 
+.Questions{
+    text-align: center;
+    padding-top: 40px;
+}
+.Questions h3{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color:#0E0401;
+    line-height: 40px;  
+    padding-bottom: 30px;
+}
+.Questions-div{
+    width: 75%;
+  
+}
+/*----------------- End Questions   -----------*/ 
+
+
+
+/* ------@Media Quarey---------- */ 
+ @media  (max-width: 1380px){
+  
+    .Unexpected-left{
+        padding-top: 0px;
+        padding-left: 10px !important;
+        text-align: center !important;
+    }
+    .Unexpected-left h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    h3{
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    p{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .Questions-div{
+        width: 100%;
+      
+    }
+
+    .Closing-cont , .Not-cont , .Failing-cont , .Missing-cont , .Opening-cont{
+        padding-top: 20px !important;
+    }
+    .closing-right img{
+        margin-left: 0px;
+    }
+}
+
+@media  (max-width: 992px) {
+
+     h3{
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    p{
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+    .Questions-div{
+        width: 100%;
+      
+    }
+
+    .Closing-cont , .Not-cont , .Failing-cont , .Missing-cont , .Opening-cont{
+        padding-top: 20px !important;
+    }
+    .closing-right img{
+        margin-left: 0px;
+    }
+  /* ----------------- */
+
+.Unexpected-left{
+    padding-top: 10px;
+    padding-left: 10px !important;
+    text-align: center !important;
+}
+.Unexpected-left h2{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+}
